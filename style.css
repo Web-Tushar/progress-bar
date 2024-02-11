@@ -1,0 +1,55 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.bar{
+     width: 0;
+     height:20px;
+     position: fixed;
+     left: 0;
+     top: 0;
+     background-color: rgb(123, 116, 183);
+
+}
+
+.round{
+     position: fixed;
+     bottom: 10px;
+     right: 10px;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 4px solid red;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.round span{
+     font-size: 30px;
+     font-weight: 600;
+     color: white;
+}
+
+
+.one{
+     background-color: rgb(70, 224, 142);
+     height: 600px;
+}
+
+.two{
+     background-color: rgb(2, 26, 26);
+     height: 600px;
+}
+
+.three{
+     background-color: rgb(64, 20, 193);
+     height: 600px;
+}
+
+.four{
+     background-color: rgb(232, 117, 23);
+     height: 600px;
+}
