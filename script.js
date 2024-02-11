@@ -15,9 +15,11 @@ function handleScroll(){
      )
      const scrollParcentage = (scrollY / (documentheight - windowHeight)) * 100   
      const finalvalue = scrollParcentage.toFixed(2)
-     console.log(finalvalue);
+     // console.log(finalvalue);
      bar.style.width = `${finalvalue}%`
-     span.innerHTML = finalvalue;
+     roundvalue = Math.floor(finalvalue)
+     span.innerHTML = `${roundvalue}%`;
 }
+
 handleScroll()
 window.addEventListener("scroll",handleScroll)
